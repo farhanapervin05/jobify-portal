@@ -66,7 +66,7 @@ A modern, full-stack job portal platform built with the MERN stack, featuring ro
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/jobify-portal.git
+git clone https://github.com/farhanapervin05/jobify-portal.git
 cd jobify-portal
 ```
 
@@ -78,8 +78,8 @@ npm install
 # Create .env file
 cat > .env << EOF
 PORT=5001
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
+MONGO_URI=my_mongodb_connection_string
+JWT_SECRET=my_jwt_secret_key
 ADMIN_CODE=ADMIN2024
 EOF
 
