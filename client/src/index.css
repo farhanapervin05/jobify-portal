@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-inter: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-gray-50);
+    color: var(--color-gray-900);
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.dashboard-page {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+@media (min-width: 992px) {
+    .dashboard {
+        grid-template-columns: auto 1fr;
+    }
+
+    .dashboard-page {
+        width: 90%;
+    }
+}
